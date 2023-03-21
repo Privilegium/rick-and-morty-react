@@ -1,0 +1,28 @@
+.hero__list {
+    margin: 65px 0 28px 0 !important;
+    padding-right: 0;
+
+    display: flex;
+    flex-direction: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 26px;
+
+    // &:not(:last-child) {
+        
+    // }
+
+    &:last-child {
+        margin-bottom: 28px;
+    }
+
+    // &:not(:last-child) {
+    //     margin-right: 20px;
+    // }
+}
+
+@media (max-width: 568px) {
+    .hero__list {
+        width: 100%;
+    }
+}
