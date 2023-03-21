@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.c3092e2d.css",
-    "main.js": "/static/js/main.9984926d.js",
-    "static/media/main-image.png": "/static/media/main-image.fdb72745f596ac4a045d.png",
-    "index.html": "/index.html",
-    "static/media/karia.ttf": "/static/media/karia.31d6cfe0d16ae931b73c.ttf",
-    "main.c3092e2d.css.map": "/static/css/main.c3092e2d.css.map",
-    "main.9984926d.js.map": "/static/js/main.9984926d.js.map"
+    "main.css": "/rick-morty-react/static/css/main.63b0b670.css",
+    "main.js": "/rick-morty-react/static/js/main.f86afa69.js",
+    "static/media/main-image.png": "/rick-morty-react/static/media/main-image.fdb72745f596ac4a045d.png",
+    "index.html": "/rick-morty-react/index.html",
+    "static/media/karia.ttf": "/rick-morty-react/static/media/karia.31d6cfe0d16ae931b73c.ttf",
+    "main.63b0b670.css.map": "/rick-morty-react/static/css/main.63b0b670.css.map",
+    "main.f86afa69.js.map": "/rick-morty-react/static/js/main.f86afa69.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3092e2d.css",
-    "static/js/main.9984926d.js"
+    "static/css/main.63b0b670.css",
+    "static/js/main.f86afa69.js"
   ]
 }
