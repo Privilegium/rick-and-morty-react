@@ -12,6 +12,7 @@ $secondary-color: #6E798C;
     padding: 76px 32px 142px 24px;
     max-width: 469px;
 
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,7 +78,7 @@ $secondary-color: #6E798C;
 }
 
 .go-back-button {
-    position: fixed;
+    position: absolute;
     top: 21px;
     left: 50px;
     display: flex;
@@ -92,6 +93,7 @@ $secondary-color: #6E798C;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
+    color: #081F32;
 }
   
 .go-back-button img {

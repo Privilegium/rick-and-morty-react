@@ -21,13 +21,15 @@ const MainPage = () => {
 
         const savedHeroesList = JSON.parse(localStorage.getItem('heroesList'));
         if (savedHeroesList) {
-            setHeroes(savedHeroesList)
+                setHeroes(savedHeroesList);
+        } else {
+            loadHeroes()
         }
         
-        const loadHeroes = async () => {
+        async function loadHeroes() {
             await getAllHeroes().then(data => setHeroes(data))
-        }
-        loadHeroes()
+        } 
+        
     }, [])
 
     useEffect(() => {
@@ -45,11 +47,9 @@ const MainPage = () => {
         
         if (filter.trim() !== '') {
             getAllHeroes(filter).then(data => setHeroes(data))
-            
         }  else if (filter.trim() === '') {
             getAllHeroes().then(data => setHeroes(data))
         }
-
     }, [filter])
 
     const onUpload = useCallback(async (e) => {
@@ -60,6 +60,7 @@ const MainPage = () => {
                 setHeroes(prev => [...prev, ...filteredData])
                 setPageCount(prev => prev + 1)
             })
+
     }, [filter, heroes, pageCount])
 
     return (
