@@ -2,6 +2,7 @@ import HeroList from '../../components/heroList/HeroList'
 import { useState, useEffect, useCallback } from 'react'
 import useHeroesService from '../../services/HeroesService'
 import ErrorMessage from '../../components/ErrorMessage/ErrorMessage'
+import Login from '../../components/login/Login'
 
 import './MainPage.scss'
 import logo from '../../assets/main-image.png'
@@ -65,6 +66,7 @@ const MainPage = () => {
 
     return (
         <div className="main">
+            <Login/>
             <img className='main__logo' src={logo} alt="Rick and Morty logo" />
             <div className="main__input-container">
                 <img className='input__logo' src={searchLogo} alt="search logo" />
